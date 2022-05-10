@@ -4,6 +4,13 @@ namespace Summator.Tests
 {
     public class SummatorTests
     {
+        // Try to sum two +/- floating point numbers
+        // For example num1 = +/-5.5; num2 = +/-4.5;
+        //----------------------------------------------------
+        // Also can try to sum two numbers with many digits after floating point
+        // like a = 5.000000000000000000000013; b = 6.000000000000000000000015;
+        // --------------------------------------------------------------
+        // What will happen if you try to sum two numbers like this -> long.MaxValue + long.MaxValue;
         [Test]
         public void Test_Sum_TwoPossitiveNumbers()
         {
